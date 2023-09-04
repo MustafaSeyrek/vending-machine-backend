@@ -15,6 +15,7 @@ import static org.springframework.http.HttpStatus.*;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/machine")
+@CrossOrigin("http://localhost:3000")
 public class MachineController {
     private final MachineService machineService;
 

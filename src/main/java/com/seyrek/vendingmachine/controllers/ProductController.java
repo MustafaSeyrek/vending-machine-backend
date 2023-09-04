@@ -15,6 +15,7 @@ import static org.springframework.http.HttpStatus.OK;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/products")
+@CrossOrigin("http://localhost:3000")
 public class ProductController {
     private final ProductService productService;
 

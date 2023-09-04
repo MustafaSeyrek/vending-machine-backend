@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
 
 @Entity
 @Data
@@ -16,6 +15,6 @@ public class Machine {
     @Id
     int id;
     int totalPrice;
-    Date coolingDate;
+    String coolingDate;
 
 }
