@@ -15,7 +15,7 @@ import static org.springframework.http.HttpStatus.OK;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/products")
-@CrossOrigin("https://vending-machine-frontend-git-konyaizmir111-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/")
+@CrossOrigin("https://vending-machine-frontend-git-konyaizmir111-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com")
 public class ProductController {
     private final ProductService productService;
 
