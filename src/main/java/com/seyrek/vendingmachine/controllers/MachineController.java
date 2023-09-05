@@ -15,7 +15,7 @@ import static org.springframework.http.HttpStatus.*;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/machine")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://vending-machine-frontend-git-konyaizmir111-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/")
 public class MachineController {
     private final MachineService machineService;
 
